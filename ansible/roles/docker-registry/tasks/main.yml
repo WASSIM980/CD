@@ -1,0 +1,10 @@
+---
+# tasks file for docker-registry
+
+ - name: tag and push
+   docker_image:
+      name: devops
+      repository: azizncir/devops
+      tag: latest
+      push: yes
+      source: local
