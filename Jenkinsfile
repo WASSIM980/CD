@@ -25,7 +25,7 @@ pipeline {
     stage('Docker Login'){
             steps{
 			
-                sh 'docker login -u azizncir -p Azerty123**'
+                sh 'docker login -u wassim98 -p wassim07492149'
             }
         } 
     stage("Docker-Registry") {
