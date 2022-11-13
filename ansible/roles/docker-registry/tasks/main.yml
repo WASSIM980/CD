@@ -4,7 +4,7 @@
  - name: tag and push
    docker_image:
       name: devops
-      repository: azizncir/devops
+      repository: wassim98/devops
       tag: latest
       push: yes
       source: local
